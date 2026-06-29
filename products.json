@@ -1,0 +1,304 @@
+{
+  "products": [
+    {
+      "id": "merino-wool-overcoat",
+      "name": "Merino Wool Overcoat",
+      "category": "Apparel",
+      "subcategory": "Outerwear",
+      "breadcrumb": ["Home", "Apparel", "Merino Wool Overcoat"],
+      "badge": "PREMIUM COLLECTION",
+      "rating": 4.8,
+      "reviewCount": 124,
+      "price": 495.00,
+      "originalPrice": 580.00,
+      "currency": "USD",
+      "discountPercent": 15,
+      "description": "Crafted from 100% sustainably sourced Italian Merino wool, this overcoat combines timeless tailoring with modern performance. Designed with a structured silhouette and thermal-regulating properties for the discerning professional.",
+      "images": [
+        "/assets/products/merino-overcoat-1.jpg",
+        "/assets/products/merino-overcoat-2.jpg",
+        "/assets/products/merino-overcoat-3.jpg",
+        "/assets/products/merino-overcoat-4.jpg"
+      ],
+      "colors": [
+        { "name": "Onyx Black", "hex": "#1a1a1a", "default": true },
+        { "name": "Charcoal Grey", "hex": "#54585a" },
+        { "name": "Navy Blue", "hex": "#1f2a44" },
+        { "name": "Rust Orange", "hex": "#b5552c" }
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "defaultSize": "M",
+      "inStock": true,
+      "stockCount": 42,
+      "perks": [
+        { "icon": "truck", "label": "Free express shipping on orders over $250" },
+        { "icon": "return", "label": "30-day hassle-free return policy" },
+        { "icon": "shield", "label": "2-year limited manufacturer warranty" }
+      ],
+      "materialAndCare": {
+        "material": "100% Italian Merino Wool",
+        "lining": "Bemberg cupro blend",
+        "care": [
+          "Dry clean only",
+          "Store on a padded hanger",
+          "Steam to remove wrinkles, do not iron directly",
+          "Avoid prolonged exposure to direct sunlight"
+        ]
+      },
+      "tags": ["new", "premium", "bestseller"]
+    },
+    {
+      "id": "slim-fit-wool-trousers",
+      "name": "Slim-Fit Wool Trousers",
+      "category": "Apparel",
+      "subcategory": "Trousers",
+      "price": 185.00,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 87,
+      "image": "/assets/products/wool-trousers.jpg",
+      "colors": [{ "name": "Navy", "hex": "#1f2a44", "default": true }],
+      "sizes": ["28", "30", "32", "34", "36"],
+      "inStock": true,
+      "relatedTo": ["merino-wool-overcoat"],
+      "section": "completeTheLook"
+    },
+    {
+      "id": "essential-oxford-shirt",
+      "name": "Essential Oxford Shirt",
+      "category": "Apparel",
+      "subcategory": "Shirts",
+      "price": 120.00,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 203,
+      "image": "/assets/products/oxford-shirt.jpg",
+      "brand": "MERRALL",
+      "colors": [{ "name": "White", "hex": "#ffffff", "default": true }],
+      "sizes": ["S", "M", "L", "XL"],
+      "inStock": true,
+      "relatedTo": ["merino-wool-overcoat"],
+      "section": "completeTheLook"
+    },
+    {
+      "id": "italian-leather-chelsea-boots",
+      "name": "Italian Leather Chelsea Boots",
+      "category": "Footwear",
+      "subcategory": "Boots",
+      "price": 345.00,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviewCount": 156,
+      "image": "/assets/products/chelsea-boots.jpg",
+      "colors": [{ "name": "Black", "hex": "#1a1a1a", "default": true }],
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "inStock": true,
+      "relatedTo": ["merino-wool-overcoat"],
+      "section": "completeTheLook"
+    },
+    {
+      "id": "ribbed-cashmere-scarf",
+      "name": "Ribbed Cashmere Scarf",
+      "category": "Accessories",
+      "subcategory": "Scarves",
+      "price": 165.00,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 64,
+      "image": "/assets/products/cashmere-scarf.jpg",
+      "colors": [{ "name": "Charcoal", "hex": "#3a3a3a", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "relatedTo": ["merino-wool-overcoat"],
+      "section": "completeTheLook"
+    },
+    {
+      "id": "aero-leather-backpack",
+      "name": "Aero Leather Backpack",
+      "category": "Accessories",
+      "subcategory": "Bags",
+      "price": 249.00,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 98,
+      "image": "/assets/products/leather-backpack.jpg",
+      "badge": null,
+      "isFavorited": true,
+      "inStock": true,
+      "section": "trendingNow"
+    },
+    {
+      "id": "maritime-chronograph",
+      "name": "Maritime Chronograph",
+      "category": "Watches",
+      "subcategory": "Chronograph",
+      "price": 895.00,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviewCount": 41,
+      "image": "/assets/products/maritime-chronograph.jpg",
+      "badge": "LIMITED",
+      "inStock": true,
+      "stockCount": 6,
+      "section": "trendingNow"
+    },
+    {
+      "id": "pure-cashmere-crewneck",
+      "name": "Pure Cashmere Crewneck",
+      "category": "Apparel",
+      "subcategory": "Knitwear",
+      "price": 180.00,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 112,
+      "image": "/assets/products/cashmere-crewneck.jpg",
+      "colors": [{ "name": "Camel", "hex": "#c9a876", "default": true }],
+      "inStock": true,
+      "section": "trendingNow"
+    },
+    {
+      "id": "amber-glass-orbit-lamp",
+      "name": "Amber Glass Orbit Lamp",
+      "category": "Home Decor",
+      "subcategory": "Lighting",
+      "price": 120.00,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 73,
+      "image": "/assets/products/orbit-lamp.jpg",
+      "inStock": true,
+      "section": "trendingNow"
+    }
+  ],
+
+  "deals": [
+    {
+      "id": "merino-wool-overcoat",
+      "name": "Merino Wool Overcoat",
+      "price": 495.00,
+      "originalPrice": 580.00,
+      "discountPercent": 15,
+      "image": "/assets/products/merino-overcoat-1.jpg",
+      "badge": "PREMIUM COLLECTION"
+    },
+    {
+      "id": "maritime-chronograph",
+      "name": "Maritime Chronograph",
+      "price": 895.00,
+      "originalPrice": 1050.00,
+      "discountPercent": 15,
+      "image": "/assets/products/maritime-chronograph.jpg",
+      "badge": "LIMITED"
+    },
+    {
+      "id": "italian-leather-chelsea-boots",
+      "name": "Italian Leather Chelsea Boots",
+      "price": 345.00,
+      "originalPrice": 420.00,
+      "discountPercent": 18,
+      "image": "/assets/products/chelsea-boots.jpg",
+      "badge": "DEAL"
+    },
+    {
+      "id": "aero-leather-backpack",
+      "name": "Aero Leather Backpack",
+      "price": 249.00,
+      "originalPrice": 299.00,
+      "discountPercent": 17,
+      "image": "/assets/products/leather-backpack.jpg",
+      "badge": "DEAL"
+    }
+  ],
+
+  "curatedCategories": [
+    {
+      "id": "mens-essentials",
+      "title": "Men's Essentials",
+      "subtitle": "Timeless pieces for the discerning gentleman.",
+      "image": "/assets/categories/mens-essentials.jpg",
+      "link": "/categories/mens-essentials"
+    },
+    {
+      "id": "home-decor",
+      "title": "Home Decor",
+      "subtitle": "Elevated pieces for considered living spaces.",
+      "image": "/assets/categories/home-decor.jpg",
+      "link": "/categories/home-decor"
+    },
+    {
+      "id": "precision-tech",
+      "title": "Precision Tech",
+      "subtitle": "Refined technology for the modern lifestyle.",
+      "image": "/assets/categories/precision-tech.jpg",
+      "link": "/categories/precision-tech"
+    }
+  ],
+
+  "hero": {
+    "badge": "SUMMER COLLECTION 2024",
+    "title": "Define Your Signature Elegance",
+    "subtitle": "Curated premium essentials designed for the modern professional. Experience the pinnacle of luxury retail with effortless grace.",
+    "primaryCta": { "label": "Shop The Collection", "link": "/categories" },
+    "secondaryCta": { "label": "View Lookbook", "link": "/lookbook" },
+    "backgroundImage": "/assets/hero/summer-2024.jpg"
+  },
+
+  "loyaltyBanner": {
+    "title": "The Loyalty Circle",
+    "description": "Join our exclusive membership program and gain early access to seasonal launches, private sales, and personalized styling services tailored to your unique taste.",
+    "cta": { "label": "Join Now", "link": "/loyalty" },
+    "backgroundImage": "/assets/banners/loyalty-circle.jpg"
+  },
+
+  "valueProps": [
+    { "icon": "truck", "title": "Complimentary Shipping", "subtitle": "On all orders over $150" },
+    { "icon": "badge-check", "title": "Authenticity Guaranteed", "subtitle": "100% genuine premium goods" },
+    { "icon": "lock", "title": "Secure Checkout", "subtitle": "Encrypted payment protection" },
+    { "icon": "headset", "title": "Dedicated Concierge", "subtitle": "24/7 personal support" }
+  ],
+
+  "footer": {
+    "brand": {
+      "name": "LuxeRetail",
+      "description": "Defining the future of premium retail through curated excellence and unparalleled service."
+    },
+    "columns": [
+      {
+        "title": "Shop",
+        "links": [
+          { "label": "New Arrivals", "link": "/new-arrivals" },
+          { "label": "Best Sellers", "link": "/best-sellers" },
+          { "label": "Seasonal Collections", "link": "/collections" },
+          { "label": "Gift Cards", "link": "/gift-cards" }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          { "label": "Customer Service", "link": "/support" },
+          { "label": "Track Your Order", "link": "/track-order" },
+          { "label": "Returns & Exchanges", "link": "/returns" },
+          { "label": "Contact Us", "link": "/contact" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "Company Info", "link": "/about" },
+          { "label": "Sustainability", "link": "/sustainability" },
+          { "label": "Privacy Policy", "link": "/privacy" },
+          { "label": "Terms of Service", "link": "/terms" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 LuxeRetail. All rights reserved."
+  }
+}
